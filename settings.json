@@ -1,0 +1,77 @@
+{
+  "workbench.colorTheme": "Andromeda",
+  "workbench.iconTheme": "vscode-icons",
+  // "editor.formatOnSave": true,
+  // "tabnine.experimentalAutoImports": true,
+  "editor.wordWrap": "on",
+  // cursor
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+
+  // comment section
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#0AB8F2"
+        }
+      }
+    ]
+  },
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // "[javascript]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": null
+  // },
+  // "[javascriptreact]": {
+  //     "editor.formatOnSave": false,
+  //     "editor.defaultFormatter": null
+  // },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+
+  "diffEditor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.withNodeModules": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "colorize.colorized_colors": [
+    "ARGB",
+    "BROWSERS_COLORS",
+    "HEXA",
+    "RGB",
+    "HSL"
+  ],
+  "colorize.languages": [
+    "javascript",
+    "javascriptreact",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg"
+  ],
+  "css.format.spaceAroundSelectorSeparator": true,
+  "liveServer.settings.fullReload": true,
+  "editor.fontFamily": "fira code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.fontWeight": 400,
+  "emmet.triggerExpansionOnTab": true,
+  "css.lint.unknownAtRules": "ignore"
+}
